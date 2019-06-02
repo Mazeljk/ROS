@@ -12,8 +12,11 @@ int main(int argc, char ** argv){
     while (ros::ok()){
 		myMsg::simple_msg msg;
 
-		msg.num1 = std::rand() % 401 + 100;
-		msg.num2 = std::rand() % 100 + 1;
+		int min_num1, min_num2;
+		n.param<int>("minNum1", min_num1, 100);
+		n.param<int>("minNum2", min_num2, 1);
+		msg.num1 = std::rand() % 401 + min_num1;
+		msg.num2 = std::rand() % 100 + min_num2;
 		num_pub.publish(msg);
 		loop_rate.sleep();
 	}
