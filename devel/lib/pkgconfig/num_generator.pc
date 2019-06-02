@@ -1,0 +1,8 @@
+prefix=/home/parallels/catkin_ws/devel
+
+Name: num_generator
+Description: Description of num_generator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parallels/catkin_ws/devel/lib 
+Requires: myMsg roscpp

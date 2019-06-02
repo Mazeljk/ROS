@@ -1,0 +1,2 @@
+july_listen:july_msgs:july_say:myMsg:num_generator:num_receptor
+-DCATKIN_DEVEL_PREFIX=/home/parallels/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/parallels/catkin_ws/install -G Unix Makefiles

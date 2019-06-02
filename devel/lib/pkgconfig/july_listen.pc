@@ -1,0 +1,8 @@
+prefix=/home/parallels/catkin_ws/devel
+
+Name: july_listen
+Description: Description of july_listen
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parallels/catkin_ws/devel/lib 
+Requires: roscpp std_msgs

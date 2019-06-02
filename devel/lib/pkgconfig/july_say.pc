@@ -1,0 +1,8 @@
+prefix=/home/parallels/catkin_ws/devel
+
+Name: july_say
+Description: Description of july_say
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parallels/catkin_ws/devel/lib 
+Requires: roscpp std_msgs

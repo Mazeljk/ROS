@@ -1,0 +1,8 @@
+prefix=/home/parallels/catkin_ws/devel
+
+Name: num_receptor
+Description: Description of num_receptor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parallels/catkin_ws/devel/lib 
+Requires: myMsg roscpp
